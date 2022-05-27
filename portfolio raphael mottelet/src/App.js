@@ -8,6 +8,7 @@ import { Experience, Projects, Personal_Projects, Promeo_Projects, SocialLinks }
 import { IoLogInOutline, IoLogoGithub, IoMenu } from "react-icons/io5";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import {Parallax} from "react-parallax"
 import './App.css'
 
 function App() {
@@ -161,16 +162,6 @@ function App() {
               </div>
             </div>*/}
             <div className="text_presentation">
-              <p className="text-textBase">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente dicta recusandae commodi praesentium officia, aliquam
-                cumque voluptatem dolor enim ducimus id maiores consequatur
-                dolorem! Architecto aperiam corrupti nostrum eum similique!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis saepe dolor illo. Tenetur labore impedit nihil natus
-                explicabo perspiciatis nisi autem aut numquam dolorum, voluptas
-                vero nobis assumenda commodi magni.
-              </p>
 
               {/*<button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -180,7 +171,7 @@ function App() {
             </div>
           </section>
           <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl ">
-              <p className="text-white">Les grandes dates de mon alternance</p>
+              <p className="text-white">Historique de mes projets principaux en alternance</p>
             </div>
 
           <section className="w-full flex items-center justify-center">
@@ -213,8 +204,13 @@ function App() {
             </VerticalTimeline>
           </section>
 
+Const 
+    <Parallax blur={10} bgImage="/images/parallax.png" bgImageAlt="the cat" strength={200}>
+        Content goes here. Parallax height grows with content height.
+    </Parallax>
 
-{/* Section Projets en entreprise*/}
+
+
 <div className="spacing1"></div>
 
           <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl ">
@@ -376,3 +372,5 @@ function App() {
 }
 
 export default App;
+
+

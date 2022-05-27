@@ -15,12 +15,24 @@ import lvcbeauvais from "./images/projets LVC/lvcbeauvais.png"
 import fmea from "./images/projets LVC/fmea.png"
 import analysetechnique from "./images/projets LVC/analysetechnique.png"
 import analysefonctionelle from "./images/projets LVC/analysefonctionelle.png"
+import header1 from "./images/projets LVC/header1.png"
+import header2 from "./images/projets LVC/header2.png"
+import miniapi from "./images/projets LVC/miniapi.png"
+import ovh from "./images/projets LVC/ovh.png"
+import ecommerce1 from "./images/projets LVC/ecommerce1.png"
+import redux from "./images/projets LVC/redux.png"
+import gantt from "./images/projets LVC/gantt.png"
 
 import cookoff from "./images/Projets perso/cookoff.png"
-import mdekit from "./images/Projets perso/medkit.png"
+import medkit from "./images/Projets perso/medkit.png"
+import three from "./images/Projets perso/three.png"
+import todo from "./images/Projets perso/todo.png"
+
+
 
 import promeo from "./images/Projets Promeo/promeo.png"
 import minitwitter from "./images/Projets Promeo/promeo.png"
+import ppe1 from "./images/Projets Promeo/ppe1.png"
 
 export const Experience = [
   {
@@ -120,85 +132,92 @@ export const Projects = [
   {
     id: 1,
     name: "Header et Animation 1",
-    imageSrc: img1,
+    imageSrc: header1,
     techs: "Html5, CSS",
     github: "#",
   },
   {
     id: 2,
     name: "Header et Animation 2",
-    imageSrc: img2,
+    imageSrc: header2,
     techs: "Html5, CSS",
     github: "#",
   },
   {
     id: 4,
     name: "Analyse de la clientelle",
-    imageSrc: img4,
-    techs: "Doc",
+    imageSrc: lvcbeauvais,
+    techs: "Documentation",
     github: "#",
   },
   {
     id: 4,
     name: "Analyse prévisionelle du projet",
-    imageSrc: img4,
+    imageSrc: gantt,
     techs: "Gantt Project",
     github: "#",
   },
   {
     id: 3,
     name: "Analyse technique",
-    imageSrc: img3,
-    techs: "Doc",
+    imageSrc: analysetechnique,
+    techs: "Documentation",
     github: "#",
   },
   {
     id: 4,
     name: "Analyse fonctionelle",
-    imageSrc: img4,
-    techs: "Doc",
+    imageSrc: analysefonctionelle,
+    techs: "Documentation",
     github: "#",
   },
   {
     id: 5,
     name: "Site Vitrine LVC V1",
-    imageSrc: img5,
+    imageSrc: lvcbeauvais,
     techs: "ReactJS",
     github: "#",
   },
   {
     id: 6,
     name: "Site Vitrine LVC V2",
-    imageSrc: img6,
+    imageSrc: lvcbeauvais,
     techs: "ReactJS",
     github: "#",
   },
   {
     id: 7,
     name: "Site Vitrine LVC V3",
-    imageSrc: img6,
+    imageSrc: lvcbeauvais,
+    techs: "ReactJS",
+    github: "https://www.les3.bio/",
+  },
+  {
+    id: 7,
+    name: "Choix de l'hébergeur, serveur et DNS",
+    imageSrc: ovh,
     techs: "ReactJS",
     github: "#",
   },
   {
     id: 8,
     name: "Mini API ecommerce",
-    imageSrc: img6,
+    imageSrc: miniapi,
     techs: "Django, SQLite3",
     github: "#",
   },
   {
     id: 9,
     name: "Mini API + Redux",
-    imageSrc: img6,
-    techs: "ReactJS, ReduxJS, Django, django-rest-framework, SQLite3",
+    imageSrc: redux,
+    techs: "ReactJS, Redux.JS, Django, django-rest-framework, SQLite3",
     github: "#",
   },
   {
     id: 10,
     name: "Site e-commerce V1",
-    imageSrc: img6,
-    techs: "ReactJS, Redux.JS, Django, MySQL",
+    imageSrc: ecommerce1,
+    techs: "ReactJS, Redux.JS, Django, django-rest-framework, MySQL",
     github: "https://www.les3.bio/",
   },
 ];
@@ -207,14 +226,14 @@ export const Promeo_Projects = [
   {
     id: 1,
     name: "PPE1",
-    imageSrc: img1,
+    imageSrc: ppe1,
     techs: "Html5, CSS, PHP",
     github: "#",
   },
   {
     id: 2,
     name: "Projet CSIS",
-    imageSrc: img2,
+    imageSrc: promeo,
     techs: "Html5, CSS",
     github: "https://promeo-formalion.fr/",
   },
@@ -222,14 +241,14 @@ export const Promeo_Projects = [
   {
     id: 3,
     name: "Mini Meteo App",
-    imageSrc: img3,
+    imageSrc: miniapi,
     techs: "Html5, CSS3, PHP",
     github: "#",
   },
   {
     id: 4,
     name: "Mini Twitter",
-    imageSrc: img3,
+    imageSrc: minitwitter,
     techs: "ReactJS, PHP",
     github: "#",
   },
@@ -239,35 +258,35 @@ export const Personal_Projects = [
   {
     id: 1,
     name: "Projet 1 ThreeJS",
-    imageSrc: img1,
+    imageSrc: three,
     techs: "ThreeJS, ReactJS, react-three-fiber",
     github: "#",
   },
   {
     id: 2,
     name: "Mini API gestion de produit",
-    imageSrc: img2,
+    imageSrc: miniapi,
     techs: "Django, Django-Rest-Framework",
     github: "#",
   },
   {
     id: 4,
     name: "Todo APP",
-    imageSrc: img3,
+    imageSrc: todo,
     techs: "ReactJS",
     github: "#",
   },
   {
     id: 5,
     name: "Cook-Off, app de cuisine",
-    imageSrc: img3,
+    imageSrc: cookoff,
     techs: "ReactJS, ReactNative, Django",
     github: "#",
   },
   {
     id: 6,
     name: "Medkit, site de ressource de cours",
-    imageSrc: img3,
+    imageSrc: medkit,
     techs: "ReactJS, Django",
     github: "#",
   },
