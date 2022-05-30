@@ -4,12 +4,6 @@ import {
   IoLogoLinkedin,
   IoLogoDiscord,
 } from "react-icons/io5";
-import img1 from "./images/thumb-fooddeliveryapp-reactjs-dec.png";
-import img2 from "./images/thumb-fullstack-socialmedia-app-react-sanity.png";
-import img3 from "./images/thumb-google-map-clone-nextjs-feb22.png";
-import img4 from "./images/thumb-pinterest-clone-reactjs.png";
-import img5 from "./images/thumb-videoblog-firebase-reactjs-feb-22.png";
-import img6 from "./images/thumb-whatsappui-clone-nextjs.png";
 
 import lvcbeauvais from "./images/projets LVC/lvcbeauvais.png"
 import fmea from "./images/projets LVC/fmea.png"
@@ -39,7 +33,7 @@ export const Experience = [
     id: 1,
     date: "mars 2022 - à ce jour",
     iconsSrc: <IoCodeWorking />,
-    title: "Devellopement de la version ecommerce",
+    title: "Devellopement de la version e-commerce",
     location: "Entreprise : La Vie Claire Beauvais",
     description:
       "Création de modules de notation, communautaire, creation de compte, management produit, management publicités et communication sur le site, migration en ecommerce / Utilisation de technologies tel que: Redux, Django-rest-framework, PostgreSQL, Mysql",
@@ -58,7 +52,7 @@ export const Experience = [
     id: 3,
     date: "Decembre 2021 - Janvier 2022",
     iconsSrc: <IoCodeWorking />,
-    title: "Recherche d'un framework Backend, maintiens du site vitrine",
+    title: "Recherche d'un framework Backend, maintien du site vitrine",
     location: "Entreprise : La Vie Claire Beauvais",
     description:
       "Recherche d'un framework approprié pour la création d'un CMS, mise à jour du contenu du site vitrine les3.bio",
@@ -103,7 +97,7 @@ export const Experience = [
     id: 7,
     date: "Mars 2021",
     iconsSrc: <IoCodeWorking />,
-    title: "Premier prototype du site vitrine",
+    title: "Début du dévellopement",
     location: "Entreprise : La Vie Claire Beauvais",
     description:
       "Début du dévellopement du site vitrine La Vie Claire Beauvais, avec le framework ReactJS, implémentation de liens youtube, carousels avec slider manuel et automatique, création de pages en fonction des besoins, intégration de liens google map pour localiser le magasin, création de contenu via prise photographique du magasin et de ses produits. ",
@@ -134,56 +128,55 @@ export const Projects = [
     name: "Header et Animation 1",
     imageSrc: header1,
     techs: "Html5, CSS",
-    github: "#",
+    
   },
   {
     id: 2,
     name: "Header et Animation 2",
     imageSrc: header2,
     techs: "Html5, CSS",
-    github: "#",
+    
   },
   {
     id: 4,
     name: "Analyse de la clientelle",
     imageSrc: lvcbeauvais,
     techs: "Documentation",
-    github: "#",
+    
   },
   {
     id: 4,
     name: "Analyse prévisionelle du projet",
     imageSrc: gantt,
     techs: "Gantt Project",
-    github: "#",
+    
   },
   {
     id: 3,
     name: "Analyse technique",
     imageSrc: analysetechnique,
     techs: "Documentation",
-    github: "#",
   },
   {
     id: 4,
     name: "Analyse fonctionelle",
     imageSrc: analysefonctionelle,
     techs: "Documentation",
-    github: "#",
+    
   },
   {
     id: 5,
     name: "Site Vitrine LVC V1",
     imageSrc: lvcbeauvais,
     techs: "ReactJS",
-    github: "#",
+    
   },
   {
     id: 6,
     name: "Site Vitrine LVC V2",
     imageSrc: lvcbeauvais,
     techs: "ReactJS",
-    github: "#",
+    
   },
   {
     id: 7,
@@ -197,28 +190,28 @@ export const Projects = [
     name: "Choix de l'hébergeur, serveur et DNS",
     imageSrc: ovh,
     techs: "ReactJS",
-    github: "#",
+    
   },
   {
     id: 8,
     name: "Mini API ecommerce",
     imageSrc: miniapi,
     techs: "Django, SQLite3",
-    github: "#",
+    
   },
   {
     id: 9,
     name: "Mini API + Redux",
     imageSrc: redux,
     techs: "ReactJS, Redux.JS, Django, django-rest-framework, SQLite3",
-    github: "#",
+    
   },
   {
     id: 10,
     name: "Site e-commerce V1",
     imageSrc: ecommerce1,
     techs: "ReactJS, Redux.JS, Django, django-rest-framework, MySQL",
-    github: "https://www.les3.bio/",
+    github: "",
   },
 ];
 
@@ -228,7 +221,7 @@ export const Promeo_Projects = [
     name: "PPE1",
     imageSrc: ppe1,
     techs: "Html5, CSS, PHP",
-    github: "#",
+    
   },
   {
     id: 2,
@@ -243,14 +236,14 @@ export const Promeo_Projects = [
     name: "Mini Meteo App",
     imageSrc: miniapi,
     techs: "Html5, CSS3, PHP",
-    github: "#",
+    
   },
   {
     id: 4,
     name: "Mini Twitter",
     imageSrc: minitwitter,
     techs: "ReactJS, PHP",
-    github: "#",
+    
   },
 ];
 
@@ -260,35 +253,35 @@ export const Personal_Projects = [
     name: "Projet 1 ThreeJS",
     imageSrc: three,
     techs: "ThreeJS, ReactJS, react-three-fiber",
-    github: "#",
+    
   },
   {
     id: 2,
     name: "Mini API gestion de produit",
     imageSrc: miniapi,
     techs: "Django, Django-Rest-Framework",
-    github: "#",
+    
   },
   {
     id: 4,
     name: "Todo APP",
     imageSrc: todo,
     techs: "ReactJS",
-    github: "#",
+    
   },
   {
     id: 5,
     name: "Cook-Off, app de cuisine",
     imageSrc: cookoff,
     techs: "ReactJS, ReactNative, Django",
-    github: "#",
+    
   },
   {
     id: 6,
     name: "Medkit, site de ressource de cours",
     imageSrc: medkit,
     techs: "ReactJS, Django",
-    github: "#",
+    
   },
 ];
 

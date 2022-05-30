@@ -13,6 +13,8 @@ import './App.css'
 
 function App() {
   const [isActive, setIsActive] = useState(false);
+
+  
   return (
     <AnimatePresence initial={false}>
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
@@ -62,7 +64,7 @@ function App() {
                 href="#"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
-                Portfolio réalisé avec ThreeJS et ReactJS
+                Portfolio réalisé avec spline.com et ReactJS
               </a>
             </div>
 
@@ -86,7 +88,7 @@ function App() {
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
-                  Accuiel
+                  Accueil
                 </a>
                 <a
                   href="#about"
@@ -203,11 +205,6 @@ function App() {
                 ))}
             </VerticalTimeline>
           </section>
-
-Const 
-    <Parallax blur={10} bgImage="/images/parallax.png" bgImageAlt="the cat" strength={200}>
-        Content goes here. Parallax height grows with content height.
-    </Parallax>
 
 
 
